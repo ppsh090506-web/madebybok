@@ -53,9 +53,12 @@ MainTab:CreateInput({
    end
 })
 
+local MainSection = MainTab:CreateSection("부가 기능")
+
 MainTab:CreateButton({
    Name = "핑핵(Z키)",
    Callback = function()
       loadstring(game:HttpGet("https://raw.githubusercontent.com/LKR-beta/nope/refs/heads/main/disabled"))()
    end
 })
+
