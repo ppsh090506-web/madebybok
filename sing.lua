@@ -3,7 +3,7 @@ local RunService = game:GetService("RunService")
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "🤣표지판 조종🤣",
+   Name = "🔨Made By Bok🔨",
    Theme = "Default",
    KeySystem = true,
    KeySettings = {
@@ -62,3 +62,4 @@ MainTab:CreateButton({
       loadstring(game:HttpGet("https://raw.githubusercontent.com/LKR-beta/nope/refs/heads/main/disabled"))()
    end
 })
+
