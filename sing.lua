@@ -13,7 +13,7 @@ local Window = Rayfield:CreateWindow({
       FileName = "Key",
       GrabKeyFromSite = true,
       SaveKey = true,
-      Key = {"VVIP"}
+      Key = {"https://pastebin.com/raw/cbEb7vYR"}
    }
 })
 
@@ -62,5 +62,6 @@ MainTab:CreateButton({
       loadstring(game:HttpGet("https://raw.githubusercontent.com/LKR-beta/nope/refs/heads/main/disabled"))()
    end
 })
+
 
 
